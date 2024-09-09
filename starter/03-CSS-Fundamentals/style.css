@@ -37,11 +37,27 @@ li {
 }
 
 /* * Descendent Selecter */
-footer p {
+/* footer p {
+  font-size: 16px;
+} */
+/* article header p {
+  font-style: italic;
+} */
+
+/* * ID Selector: (Don't use this) */
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+#copyright {
   font-size: 16px;
 }
 
-/* * Nested Descendent Selecter */
-article header p {
-  font-style: italic;
+/* * Class Selector: (Use this instead) */
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+.related {
+  list-style: none;
 }
