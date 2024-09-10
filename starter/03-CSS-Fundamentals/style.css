@@ -96,10 +96,36 @@ li:nth-child(even) {
 }
 
 /* * Just don't use on Descendent selectors */
-article p:first-child {
+/* article p:first-child {
   color: red;
+} */
+
+/* article p:last-child {
+  color: red;
+} */
+
+/* a {
+  color: red;
+} */
+
+a:link {
+  color: #1098ad;
+  /* * Make link have no underline */
+  text-decoration: none;
 }
 
-article p:last-child {
-  color: red;
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: olive;
+  font-weight: bold;
+  /* text-decoration: underline dotted orangered; */
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
 }
