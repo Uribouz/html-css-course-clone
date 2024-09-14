@@ -6,6 +6,7 @@
   padding: 0;
 }
 
+/* PAGE SECTIONS */
 body {
   color: #444;
   font-family: sans-serif;
@@ -27,7 +28,7 @@ body {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  /* height: 80px; */
 }
 
 nav {
@@ -49,6 +50,8 @@ aside {
   padding: 50px 0px;
   width: 500px;
 }
+
+/* SMALLER ELEMENTS */
 h1,
 h2,
 h3 {
@@ -82,6 +85,8 @@ p {
   font-size: 22px;
   line-height: 1.5;
   margin-bottom: 15px;
+  /* * Convert the nav lin to Inline-Level elements */
+  /* display: inline; */
 }
 
 ul,
@@ -93,6 +98,8 @@ ol {
 li {
   font-size: 22px;
   margin-bottom: 10px;
+  /* * Convert the nav lin to Inline-Level elements */
+  /* display: inline; */
 }
 
 li:last-child {
@@ -125,9 +132,10 @@ li:last-child {
   list-style: none;
 }
 
-body {
-  /* background-color: blue; */
-}
+/* body {
+  background-color: blue; 
+} 
+*/
 
 /* * Pseudo Class */
 li:first-child {
@@ -193,8 +201,29 @@ footer p {
   color: green;
 }
 
+/* * Already is a inline-block box element*/
 .post-img {
   /* * Responsive Size*/
   width: 100%;
   height: auto;
+  /* margin-top: 100px; */
+}
+
+/* * Convert the nav link to Block-Level elements */
+/* nav a:link {
+  background-color: orangered;
+  margin: 20px;
+  padding: 20px;
+  display: block;
+} */
+
+/* * Convert the nav link to Inline-Block Level elements */
+nav a:link {
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0px;
 }
