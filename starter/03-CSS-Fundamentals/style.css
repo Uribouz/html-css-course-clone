@@ -11,6 +11,15 @@ body {
   font-family: sans-serif;
   border-top: 10px solid #1098ad;
 }
+
+.container {
+  width: 800px;
+  /* * Making this page have the same space for both left and right side !!! */
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
 .main-header {
   background-color: #f7f7f7;
   /* padding: 20px;
