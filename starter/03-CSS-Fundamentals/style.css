@@ -11,6 +11,8 @@ body {
   color: #444;
   font-family: sans-serif;
   border-top: 10px solid #1098ad;
+  /* * Parent's of child with position: absolute */
+  position: relative;
 }
 
 .container {
@@ -19,6 +21,7 @@ body {
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
+  /* position: relative; */
 }
 
 .main-header {
@@ -40,6 +43,7 @@ article {
 }
 .post-header {
   margin-bottom: 40px;
+  /* position: relative; */
 }
 
 aside {
@@ -226,4 +230,17 @@ nav a:link {
 
 nav a:link:last-child {
   margin-right: 0px;
+}
+
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+  /* *Position 50px from the top and 50px from the left*/
+  /* top: 50px;
+  left: 50px; */
+  /* *Position 50px from the bottom and 50px from the right*/
+  bottom: 50px;
+  right: 50px;
 }
