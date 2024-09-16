@@ -22,6 +22,7 @@ body {
 
 .main-header {
   background-color: #f7f7f7;
+  background-color: red;
   /* padding: 20px;
   padding-left: 40px;
   padding-right: 40px; */
@@ -265,3 +266,38 @@ footer p {
 nav p {
   font-size: 18px;
 } */
+
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  /* padding-left: 80px; */
+  margin-top: 10px;
+  margin-left: 20px;
+  float: left;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+/* Remem */
+/* * Old way to clearing float problem  */
+.clear {
+  clear: both;
+}
+
+/* * New way to clearing float problem: clearfix hacked  */
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+/* * !!! Remember that 'float' is an old way to layout website */
