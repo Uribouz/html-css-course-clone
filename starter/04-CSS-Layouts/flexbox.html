@@ -40,8 +40,31 @@
         margin: 40px;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: flex-start;
+        gap: 30px;
         /* FLEXBOX */
+      }
+
+      /* *!!! Use 'gap' instead */
+      /* .el {
+        margin-right: 30px;
+      } */
+
+      .el--1 {
+        /* Make this element vertically at the top of the container */
+        align-self: flex-start;
+      }
+
+      .el--5 {
+        /* Stretch this element vertically to the same height as the container */
+        align-self: stretch;
+        /* Move this element to after default position (more than zero) */
+        order: 1;
+      }
+
+      .el--6 {
+        /* Move this element to before default position (less than zero) */
+        order: -1;
       }
     </style>
   </head>
