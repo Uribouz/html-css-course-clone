@@ -42,14 +42,33 @@
         /* CSS GRID */
         display: grid;
 
-        /* * 4 columns */
-        grid-template-columns: 250px 250px 150px 150px;
+        /* Make all items have width proportions as follows */
+        /* grid-template-columns: 2fr 2fr 1fr auto; */
+
+        /* Create 4 columns, each have the same width "1fr" */
+        grid-template-columns: repeat(4, 1fr);
+
         /* * 2 rows */
-        grid-template-rows: 300px 200px;
+        /* grid-template-rows: 300px 200px; */
+
+        /* Create 2 rows, 
+       both rows have height "1fr", 
+            which is equal to 150px (inherited from element ".el--3" which is the tallest element)
+        */
+        grid-template-rows: 1fr 1fr;
+
+        /* Create 2 rows, 
+        1) second row have heght "auto", 
+            whcih is only take the space it need for its content.
+        2) first row will the leftover height "1fr", 
+            which will filled the entire container.
+        */
+        grid-template-rows: 1fr auto;
 
         gap: 20px;
         column-gap: 30px;
         row-gap: 60px;
+        height: 500px;
       }
 
       .container--2 {
