@@ -30,7 +30,7 @@ body {
   padding-left: 40px;
   padding-right: 40px; */
   padding: 20px 40px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   /* height: 80px; */
 }
 
@@ -40,7 +40,7 @@ nav {
 }
 
 article {
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
 }
 
 .post-header {
@@ -361,27 +361,48 @@ footer {
   font-weight: normal;
   font-style: italic;
 }
-
+/* 
 .row {
   align-items: flex-start;
   display: flex;
   gap: 75px;
   margin-bottom: 60px;
-}
+} */
 
-article {
-  /* * Dont use this in flex: let this element automatically calculated its size */
-  /* flex: 0 0 825px; */
+/* article {
+   Dont use this in flex: let this element automatically calculated its size 
+   flex: 0 0 825px; 
 
-  /* * Better use of flex: let this element automatically calculated its size */
+   Better use of flex: let this element automatically calculated its size 
   flex: 1;
   margin-bottom: 0px;
+} */
+/* 
+aside {
+   DEFAULTS:
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto; 
+  flex: 0 0 300px;
+} */
+
+/* CSS Grid Layout */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 25px;
+  row-gap: 60px;
+  align-items: start;
+}
+
+.main-header {
+  grid-column: 1/-1;
 }
 
 aside {
-  /* DEFAULTS:
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto; */
-  flex: 0 0 300px;
+  /* align-self: start; */
+}
+
+footer {
+  grid-column: 1/-1;
 }
