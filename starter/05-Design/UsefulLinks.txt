@@ -1,0 +1,14 @@
+Typeface toolbox
+    Google Fonts
+        https://fonts.google.com/
+    Font Squirrel
+    Type Scale:
+        https://typescale.com/
+
+Color toolbox
+    OC- Open Color
+    tailwindcss
+    FLAT UI COLORS 2
+    palleton.com
+    coolors
+    Tint & Shade Generator
