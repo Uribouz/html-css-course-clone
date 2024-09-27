@@ -7,8 +7,10 @@ Typeface toolbox
 
 Color toolbox
     OC- Open Color
+        https://yeun.github.io/open-color/
     tailwindcss
     FLAT UI COLORS 2
     palleton.com
     coolors
+        https://coolors.co/contrast-checker/112a46-acc8e5
     Tint & Shade Generator
