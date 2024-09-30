@@ -23,7 +23,8 @@ Images toolbox
     Squoosh (Compress Images)
 
 Icons toolbox
+    Hero Icons (free icon packs)
+        https://heroicons.com/
     Phosphor Icons (free icon packs)
     ionicons (free icon packs)
     icons8 (free icon packs)
-    
