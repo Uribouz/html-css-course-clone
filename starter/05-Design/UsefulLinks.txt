@@ -14,3 +14,12 @@ Color toolbox
     coolors
         https://coolors.co/contrast-checker/112a46-acc8e5
     Tint & Shade Generator
+ 
+Images toolbox
+    Unsplash (Free Images)
+    Pexels (Free Images)
+    DrawKit (Free Images)
+    unDraw (Free Images)
+    Squoosh (Compress Images)
+
+
