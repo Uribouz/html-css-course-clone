@@ -95,6 +95,14 @@ h1 {
   line-height: 1.1;
   letter-spacing: -1px;
   /* 44 / 52 / 62 */
+  /*
+ text-shadow:
+    1) horizontal value
+    2) vertical value
+    3) blurred value
+    4) color value
+   */
+  /* text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1); */
 }
 
 .header-text {
@@ -149,6 +157,19 @@ img {
 }
 
 /* CHAIRS */
+.chair {
+  /* * Want the light source from the top, make shadow at the bottom  */
+  /*
+  box-shadow:
+    1) horizontal value
+    2) vertical value
+    3) blurred value
+    4) extra radius value
+    5) color value
+   */
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.07);
+}
+
 .chair-box {
   padding: 24px;
 }
